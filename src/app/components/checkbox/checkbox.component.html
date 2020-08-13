@@ -1,0 +1,14 @@
+<button
+  class="button-class"
+  mat-icon-button
+  (click)="getClicked()"
+>
+  <mat-icon
+    class="box-icon"
+    [ngStyle]="{'color': color}"
+  >
+    {{getIco()}}
+  </mat-icon>
+
+  &nbsp;	&nbsp; {{checked}} &nbsp;	&nbsp; {{color}} &nbsp;	&nbsp;
+</button>

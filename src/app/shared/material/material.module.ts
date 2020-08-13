@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 
-//Angular Material Components
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from '@angular/material/checkbox';

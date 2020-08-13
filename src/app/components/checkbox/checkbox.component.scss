@@ -1,0 +1,87 @@
+.container {
+    // padding: 50px;
+    padding-top: 10px;
+}
+
+
+// ::ng-deep .checkbox-element {
+//     margin: 50px !important;
+//     height: 28px !important;
+//     width: 28px !important;
+// }
+
+// ::ng-deep .mat-checkbox-checked
+// .mat-checkbox-background, 
+// .mat-checkbox-indeterminate.mat-accent 
+// .mat-checkbox-background, 
+// .mat-accent .mat-pseudo-checkbox-checked, 
+// .mat-accent .mat-pseudo-checkbox-indeterminate, 
+// .mat-pseudo-checkbox-checked, 
+// .mat-pseudo-checkbox-indeterminate
+// .checkbox-element {
+//     background-color: rgb(0, 255, 34) !important;
+//     // border-color: 1px solid violet;
+//     height: 28px;
+//     width: 28px;
+// }
+
+// aliniam elementul mat-icon din mat-icon-button
+.mat-icon-button i, .mat-icon-button .mat-icon {
+    line-height: 25px;
+    height: 23px;
+    width: 23px;
+}
+
+.mat-icon {
+    line-height: 25px !important;
+    height: 24px !important;
+    width: 38px !important;
+    font-size: 23px !important;
+
+    stroke: black;
+    stroke-width: 10;
+}
+
+
+// NULL
+.done-icon {
+    color: #02a302c7;
+    border-style: solid;
+    // padding-right: 2px;
+}
+
+// FALSE
+.mat-icon-padding {
+    margin-left: 10px;
+    padding: 0px;
+    
+    // border-style: dashed;
+}
+
+.box-icon {
+    font-size: 35px;
+    // opacity: 0.35;
+
+    // display: flex; 
+    // align-items: center; 
+    // justify-content: center;
+}
+
+.button-class:hover {
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+// TRUE + NULL
+.mat-icon-padding2 {
+    margin-left: 55px;
+    color: #f44336d4;
+}
+
+.clear-icon {
+    border-style: solid;
+    // border-style: dashed;
+    // height: 10px;
+    font-size: 25;
+    // padding-right: 2px;
+}
+
